@@ -1,20 +1,28 @@
 import sys
 
-def vote():
+
+def vote(voter, rank, name):
     pass
+
+
 def tabulate():
     pass
+
+
 def print_winner():
     pass
+
+
 def find_min():
     pass
-def is_tie():
+
+
+def is_tie(min):
     pass
-def eliminate():
+
+
+def eliminate(min):
     pass
-
-
-
 
 
 candidates = []
