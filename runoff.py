@@ -1,5 +1,22 @@
 import sys
 
+def vote():
+    pass
+def tabulate():
+    pass
+def print_winner():
+    pass
+def find_min():
+    pass
+def is_tie():
+    pass
+def eliminate():
+    pass
+
+
+
+
+
 candidates = []
 candidate = {}
 
