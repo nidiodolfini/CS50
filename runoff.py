@@ -1,8 +1,11 @@
 import sys
+preferences = [[],[]]
+
+def vote(voter): #, rank, name
+    for i in range(voter):
+        vote = input(f'Rank {i+1}: ')
 
 
-def vote(voter, rank, name):
-    pass
 
 
 def tabulate():
@@ -32,3 +35,6 @@ arg = sys.argv
 if len(arg) > 10:
     print('max of candidates is 9')
     exit()
+
+voters = int(input('Number of voters:'))
+vote(voters)
