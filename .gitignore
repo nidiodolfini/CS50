@@ -334,7 +334,7 @@ venv.bak/
 pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/venv,python,pycharm
-.idea/vcs.xml
-*.idea/vcs.xml
+.idea
+*.idea
 .idea/workspace.xml
 *.idea/workspace.xml
