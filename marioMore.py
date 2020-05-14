@@ -1,4 +1,11 @@
-tamanho = 8
+tamanho = 0
+while True:
+    entrada = input()
+    if entrada.isnumeric():
+        tamanho = int(entrada)
+        if 1 <= int(tamanho) <=8:
+            break
+
 
 for i in range(tamanho):
     for j in range(1,tamanho+1):

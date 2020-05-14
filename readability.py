@@ -28,7 +28,7 @@ def grade(words):
     elif index > 16:
         print("Grade 16+")
     else:
-        print(round(index))
+        print(f'Grade {round(index)}')
 
 
-grade("One fish. Two fish. Red fish. Blue fish.")
+grade(input())
